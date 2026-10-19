@@ -9,5 +9,5 @@ languages = ["languages/conky"]
 
 [grammars.conky]
 repository = "https://github.com/Tralen/conky-syntax"
-rev = "170a5cf9fc98314a6ea9a0e70e16522dfec4d6fd"
+rev = "fe46766cc3884423e018ad1fa56637678fd7b022"
 path = "grammars/tree-sitter-conky"
