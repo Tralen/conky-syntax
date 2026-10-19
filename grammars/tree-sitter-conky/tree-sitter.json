@@ -1,0 +1,14 @@
+{
+  "grammars": [
+    {
+      "name": "conky",
+      "scope": "source.conky",
+      "file-types": ["ck", "conkyrc"],
+      "path": ".",
+      "highlights": ["queries/conky/highlights.scm"]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0"
+  }
+}

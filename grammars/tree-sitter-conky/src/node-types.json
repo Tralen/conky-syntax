@@ -1,0 +1,303 @@
+[
+  {
+    "type": "boolean",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "config_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "config_entry",
+          "named": true
+        },
+        {
+          "type": "lua_comment",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "config_entry",
+    "named": true,
+    "fields": {
+      "key": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "config_value",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "config_value",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "identifier",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "config_block",
+          "named": true
+        },
+        {
+          "type": "lua_comment",
+          "named": true
+        },
+        {
+          "type": "text_block",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "string",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "text_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "text_backslash",
+          "named": true
+        },
+        {
+          "type": "text_comment",
+          "named": true
+        },
+        {
+          "type": "text_continuation",
+          "named": true
+        },
+        {
+          "type": "text_dollar",
+          "named": true
+        },
+        {
+          "type": "text_dollar_literal",
+          "named": true
+        },
+        {
+          "type": "text_literal",
+          "named": true
+        },
+        {
+          "type": "text_variable",
+          "named": true
+        },
+        {
+          "type": "text_variable_short",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "text_command",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "text_dollar_literal",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "text_variable",
+    "named": true,
+    "fields": {
+      "args": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "text_arguments",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "text_command",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "text_variable_short",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "text_command",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "\n",
+    "named": false
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "$",
+    "named": false
+  },
+  {
+    "type": "${",
+    "named": false
+  },
+  {
+    "type": "'",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "[[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "]]",
+    "named": false
+  },
+  {
+    "type": "conky.config",
+    "named": false
+  },
+  {
+    "type": "conky.text",
+    "named": false
+  },
+  {
+    "type": "false",
+    "named": false
+  },
+  {
+    "type": "lua_comment",
+    "named": true
+  },
+  {
+    "type": "number",
+    "named": true
+  },
+  {
+    "type": "text_arguments",
+    "named": true
+  },
+  {
+    "type": "text_backslash",
+    "named": true
+  },
+  {
+    "type": "text_comment",
+    "named": true
+  },
+  {
+    "type": "text_continuation",
+    "named": true
+  },
+  {
+    "type": "text_dollar",
+    "named": true
+  },
+  {
+    "type": "text_literal",
+    "named": true
+  },
+  {
+    "type": "true",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]

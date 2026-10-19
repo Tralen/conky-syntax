@@ -1,0 +1,4 @@
+/grammars/conky/
+/grammars/*.wasm
+/target/
+/extension.wasm

@@ -1,0 +1,13 @@
+id = "conky-syntax"
+name = "Conky Syntax"
+version = "0.1.0"
+schema_version = 1
+authors = ["Tralen"]
+description = "Syntax highlighting for Conky configuration files."
+repository = "https://github.com/Tralen/conky-syntax"
+languages = ["languages/conky"]
+
+[grammars.conky]
+repository = "https://github.com/Tralen/conky-syntax"
+rev = "170a5cf9fc98314a6ea9a0e70e16522dfec4d6fd"
+path = "grammars/tree-sitter-conky"

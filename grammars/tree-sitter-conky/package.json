@@ -1,0 +1,23 @@
+{
+  "name": "tree-sitter-conky",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for Conky configuration files.",
+  "main": "bindings/node",
+  "keywords": [
+    "tree-sitter",
+    "conky"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tree-sitter-cli": "^0.22.0"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.conky",
+      "file-types": [
+        "ck",
+        "conkyrc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+name = "Conky"
+grammar = "conky"
+path_suffixes = ["ck", "conkyrc"]
+first_line_pattern = "^-- Conky:"
+line_comments = ["# "]
